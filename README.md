@@ -1,8 +1,8 @@
 # credit-card-fraud-detection
 End-to-end machine learning project for fraud detection
-# 💳 Credit Card Fraud Detection (End-to-End Machine Learning Project)
+# Credit Card Fraud Detection (End-to-End Machine Learning Project)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques.
 
@@ -14,7 +14,7 @@ Because of this imbalance, accuracy alone is not a reliable metric. Instead, Pre
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The main goal is to build a model that can:
 
@@ -24,7 +24,7 @@ The main goal is to build a model that can:
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 - Type: Credit card transactions
 - Target variable: Class
@@ -34,25 +34,25 @@ The main goal is to build a model that can:
 
 ---
 
-## 🧠 Techniques Used
+##  Techniques Used
 
-### 🔍 Data Analysis
+###  Data Analysis
 - Exploratory Data Analysis (EDA)
 - Class distribution visualization
 
-### ⚙️ Data Preprocessing
+###  Data Preprocessing
 - Train-test split (stratified sampling)
 - Handling missing imbalance issues
 
-### ⚖️ Imbalance Handling
+###  Imbalance Handling
 - SMOTE (Synthetic Minority Oversampling Technique)
 - Class weighting (scale_pos_weight)
 
-### 🤖 Machine Learning Models
+###  Machine Learning Models
 - Logistic Regression (baseline model)
 - XGBoost Classifier (final model)
 
-### 📈 Optimization Techniques
+###  Optimization Techniques
 - Probability-based predictions (predict_proba)
 - Threshold tuning
 - Precision–Recall trade-off analysis
